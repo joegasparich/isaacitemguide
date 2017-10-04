@@ -1,0 +1,87 @@
+img { 
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+body {
+    background-color: #090909;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.topbar {
+	left: 0%;
+	width: 80%;
+	color: white;
+	text-align: center;
+}
+
+.items-container {
+	left: 0%;
+	width: 80%;
+	border-bottom:1px solid;
+	border-color: white;
+}
+.trinkets-container {
+	left: 0%;
+	width: 80%;
+	border-bottom:1px solid;
+	border-color: white;
+}
+.consumables-container {
+	left: 0%;
+	width: 80%;
+}
+
+li .hover-img div {
+	position: absolute;
+	left:-9999px;
+	top:-9999px;
+	z-index:9999;
+}
+li:hover .hover-img div { 
+	top: 50px;
+	left: 80%;
+	width: 20%;
+	position: fixed;
+}
+
+li .hover-img img{
+	height: 60px;
+	width: auto;
+}
+
+li {
+	display: inline-block;
+}
+
+.details p{
+	margin: 0;
+	color: white;
+}
+
+#title {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+#name {
+	text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+	font-size:20px;
+}
+
+#desc {
+	text-align: center;
+    font-style: italic;
+}

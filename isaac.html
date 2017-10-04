@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="isaac.css">
+	<script src="jquery-3.2.1.js"></script>
+	<script src="populateLists.js"></script>
+</head>
+<body>
+<img src="title.png" id="title">
+<div class="topbar">
+	<p>Sort By: 
+	<select name="sort" onchange="sort(this.value)">
+		<option value="id" selected>ID</option>
+		<option value="name">Name</option>
+		<option value="tag">Tag</option>
+	</select>
+	</p>
+</div>
+<div class="items-container" id="itmlist">
+<ul class="ul-list-items"></ul>
+</div>
+<div class="trinkets-container" id="tnklist">
+<ul class="ul-list-trinkets"></ul>
+</div>
+<div class="consumables-container" id="cnslist">
+<ul class="ul-list-consumables"></ul>
+</div>
+</body>
+</html>
