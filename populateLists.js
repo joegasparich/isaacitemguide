@@ -1,3 +1,5 @@
+var json
+
 $(document).ready(function () {
     $.ajax({
         type: "GET",
@@ -72,4 +74,49 @@ function sort(type) {
             });
 	    }
 	});
+}
+
+function search() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('search');
+    filter = input.value.toUpperCase();
+    itemul = document.getElementById("itmlist");
+    li = itemul.getElementsByTagName('li');
+
+    for (i = 0; i < li.length; i++) {
+    	item = li[i]
+        a = li[i].getElementsByTagName("p")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+
+    trnkul = document.getElementById("tnklist");
+    li = trnkul.getElementsByTagName('li');
+
+    for (i = 0; i < li.length; i++) {
+    	item = li[i]
+        a = li[i].getElementsByTagName("p")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+
+    consul = document.getElementById("cnslist");
+    li = consul.getElementsByTagName('li');
+    
+    for (i = 0; i < li.length; i++) {
+    	item = li[i]
+        a = li[i].getElementsByTagName("p")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
 }

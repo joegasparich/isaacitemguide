@@ -85,3 +85,7 @@ li {
 	text-align: center;
     font-style: italic;
 }
+
+input {
+    float: right;
+}
