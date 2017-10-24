@@ -7022,6 +7022,68 @@
 			"tag": "eye"
 		},
 		{
+			"img": "items\\collectibles_530_deathslist.png",
+			"name": "Death's List",
+			"desc": "Just hope you're not next",
+			"details": [
+				"Skulls appear over enemies, killing them in the marked order gives a random stat up or consumable"
+			],
+			"type": "Passive",
+			"pool": "Devil Room",
+			"source": "Booster 4",
+			"tag": "paper"
+		},
+		{
+			"img": "items\\collectibles_531_haemolacria.png",
+			"name": "Haemolacria",
+			"desc": "I'm seeing red",
+			"details": [
+				"Isaac shoots tears in an arc which explode into smaller tears",
+				"Tears down"
+			],
+			"type": "Passive",
+			"pool": "Item Room",
+			"source": "Booster 4",
+			"tag": "organ"
+		},
+		{
+			"img": "items\\collectibles_532_lachryphagy.png",
+			"name": "Lachryphagy",
+			"desc": "Feed them!",
+			"details": [
+				"Tears slow down over time, bursting on stopping",
+				"Combining tears makes them bigger and cause bigger burst"
+			],
+			"type": "Passive",
+			"pool": "Item Room",
+			"source": "Booster 4",
+			"tag": "tear"
+		},
+		{
+			"img": "items\\collectibles_533_trisagion.png",
+			"name": "Trisagion",
+			"desc": "Smite thy enemy",
+			"details": [
+				"Tears are replaced with piercing small holy lasers"
+			],
+			"type": "Passive",
+			"pool": "Angel Room",
+			"source": "Booster 4",
+			"tag": "holy"
+		},
+		{
+			"img": "items\\collectibles_534_schoolbag.png",
+			"name": "Schoolbag",
+			"desc": "Extra active item room",
+			"details": [
+				"Allows you to hold two active items"
+			],
+			"type": "Passive",
+			"pool": "Shop",
+			"source": "Booster 4",
+			"tag": "bag"
+		},
+		{
 			"img": "items\\collectible_addicted.png",
 			"name": "Addicted",
 			"desc": "Stress just changes me, ok?",
@@ -8060,18 +8122,6 @@
 			"tag": "weapon"
 		},
 		{
-			"img": "items\\backpack.png",
-			"name": "Backpack",
-			"desc": "More Active Space",
-			"details": [
-				"Allows you to hold two active items"
-			],
-			"type": "Passive",
-			"pool": "Item Room, Shop",
-			"source": "Backpack",
-			"tag": "bag"
-		},
-		{
 			"img": "items\\glazed_heart.png",
 			"name": "Glazed Heart",
 			"desc": "HP up + Bzzz",
@@ -8541,18 +8591,6 @@
 			"tag": "zzmisc"
 		},
 		{
-			"img": "items\\collectibles_extensioncord.png",
-			"name": "Extension Cord",
-			"desc": "Charged friend",
-			"details": [
-				"A laser flows through Isaac's familiars"
-			],
-			"type": "Passive",
-			"pool": "Shop",
-			"source": "Straw Pack",
-			"tag": "tech"
-		},
-		{
 			"img": "items\\collectibles_mechanicalflies.png",
 			"name": "Mechanical Flies",
 			"desc": "Wind 'em up!",
@@ -8704,19 +8742,6 @@
 			"tag": "tech"
 		},
 		{
-			"img": "items\\WaterBalloon.png",
-			"name": "Water Balloon",
-			"desc": "Fun on a hot day!",
-			"details": [
-				"Tears Down",
-				"Isaac's tears turn into balloons, which explode into tears"
-			],
-			"type": "Passive",
-			"pool": "Item Room",
-			"source": "Water Balloon",
-			"tag": "tear"
-		},
-		{
 			"img": "items\\Max_Paw.png",
 			"name": "Max's Paw",
 			"desc": "Damage converter",
@@ -8742,6 +8767,44 @@
 			"pool": "Item Room, Golden Chest",
 			"source": "Max Transformation",
 			"tag": "animalMax"
+		},
+		{
+			"img": "items\\Collectibles_Mineral_Tears.png",
+			"name": "Mineral Tears",
+			"desc": "Get busy digging or get busy dying!",
+			"details": [
+				"Chance to fire rock tears which spawn shockwaves on impact",
+				"Chance scales based on luck as well as rocks destroyed"
+			],
+			"type": "Passive",
+			"pool": "Rock",
+			"source": "Quarry",
+			"tag": "rock"
+		},
+		{
+			"img": "items\\Collectibles_Ground_Bean.png",
+			"name": "Ground Bean",
+			"desc": "No touching!",
+			"details": [
+				"Spawns a shockwaves around Isaac upon taking damage"
+			],
+			"type": "Passive",
+			"pool": "Rock",
+			"source": "Quarry",
+			"tag": "bean"
+		},
+		{
+			"img": "items\\Collectibles_Rock_Shield.png",
+			"name": "Rock Shield",
+			"desc": "Valley Guardian",
+			"details": [
+				"Spawns shockwave pulses which damage and block shots for a few seconds"
+			],
+			"type": "Active",
+			"recharge": 4,
+			"pool": "Rock",
+			"source": "Quarry",
+			"tag": "rock"
 		}
 	],
 	"trinkets": [
@@ -10010,6 +10073,16 @@
 			"tag" : "zzmisc"
 		},
 		{
+			"img": "trinkets\\trinket_125_extensioncord.png",
+			"name": "Extension Cord",
+			"desc": "Charged friend",
+			"details": [
+				"Laser chain that flows through familiars"
+			],
+			"source": "Booster 4",
+			"tag" : "tech"
+		},
+		{
 			"img": "trinkets\\trinket_browneye.png",
 			"name": "Brown Eye",
 			"desc": "I got eye in my poop!",
@@ -10211,6 +10284,16 @@
 			],
 			"source": "Straw Pack",
 			"tag" : "spider"
+		},
+		{
+			"img": "trinkets\\bursting_rock.png",
+			"name": "Bursting Rock",
+			"desc": "Wetstones",
+			"details": [
+				"Destroyed rocks spawn tears in a circle"
+			],
+			"source": "Quarry",
+			"tag" : "rock"
 		}
 	],
 
