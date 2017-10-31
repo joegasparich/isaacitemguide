@@ -6,34 +6,7 @@ $(document).ready(function () {
         dataType: 'json',
         url: 'itemdata.json',
         success: function (json) {
-            //for each item
-            $.each(json.items, function (index, object) {
-            	if('recharge' in object) {
-            		$(".ul-list-items").append(
-	                    "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p> " + object.details + "</p><p><b>Type:</b> " + object.type + "</p><p><b>Recharge:</b> " + object.recharge + "</p><p><b>Pool:</b> " + object.pool + "</p><p><b>Source:</b> " + object.source + "</p></div></div></li>"
-	                );
-            	} else {
-	                $(".ul-list-items").append(
-	                    "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p> " + object.details + "</p><p><b>Type:</b> " + object.type + "</p><p><b>Pool:</b> " + object.pool + "</p><p><b>Source:</b> " + object.source + "</p></div></div></li>"
-	                );
-            	}
-            });
-            $.each(json.trinkets, function (index, object) {
-                $(".ul-list-trinkets").append(
-                    "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p> " + object.details + "</p><p><b>Source:</b> " + object.source
-                );
-            });
-            $.each(json.consumables, function (index, object) {
-            	if('desc' in object) {
-	                $(".ul-list-consumables").append(
-	                    "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p> " + object.details + "</p><p><b>Source:</b> " + object.source
-	                );
-	            } else {
-	            	$(".ul-list-consumables").append(
-	                    "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p> " + object.details + "</p><p><b>Source:</b> " + object.source
-	                );
-	            }
-            });
+            show(json)
         }
     });
 });
@@ -46,6 +19,7 @@ function sort(type) {
 	    success: function (json) {
 			$(".ul-list-items").empty()
 			$(".ul-list-trinkets").empty()
+            $(".ul-list-consumables").empty()
 	        //for each item
 	        if(type == "name") {
 	        	json.items.sort(function(a, b) {return a.name.localeCompare(b.name)})
@@ -55,23 +29,7 @@ function sort(type) {
 				json.items.sort(function(a, b) {return a.tag.localeCompare(b.tag)})
 	        	json.trinkets.sort(function(a, b) {return a.tag.localeCompare(b.tag)})
 			}
-	        $.each(json.items, function (index, object) {
-	            if('recharge' in object) {
-            		$(".ul-list-items").append(
-	                    "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p> " + object.details + "</p><p><b>Type:</b> " + object.type + "</p><p><b>Recharge:</b> " + object.recharge + "</p><p><b>Pool:</b> " + object.pool + "</p><p><b>Source:</b> " + object.source + "</p></div></div></li>"
-	                );
-            	} else {
-	    	console.log("weeeeeooo")
-	                $(".ul-list-items").append(
-	                    "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p> " + object.details + "</p><p><b>Type:</b> " + object.type + "</p><p><b>Pool:</b> " + object.pool + "</p><p><b>Source:</b> " + object.source + "</p></div></div></li>"
-	                );
-            	}
-	        });
-            $.each(json.trinkets, function (index, object) {
-                $(".ul-list-trinkets").append(
-                    "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p> " + object.details + "</p><p><b>Source:</b> " + object.source
-                );
-            });
+	        show(json)
 	    }
 	});
 }
@@ -119,4 +77,45 @@ function search() {
             li[i].style.display = "none";
         }
     }
+}
+
+function show(json) {
+    //for each item
+    $.each(json.items, function (index, object) {
+        info = "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p><ul>"
+        object.details.forEach(function (item) {
+            info += "<li>" + item + "</li>"
+        })
+        info += "</ul></p><p><b>Type:</b> " + object.type
+        if('recharge' in object) {
+            info += "</p><p><b>Recharge:</b> " + object.recharge
+        }
+        info += "</p><p><b>Pool:</b> " + object.pool + "</p><p><b>Source:</b> " + object.source + "</p></div></div></li>"
+
+        $(".ul-list-items").append(info);
+    });
+    //for each trinket
+    $.each(json.trinkets, function (index, object) {
+        info = "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name + "</p><p id=\"desc\"> " + object.desc + "</p><p><ul>"
+        object.details.forEach(function (item) {
+            info += "<li>" + item + "</li>"
+        })
+        info += "</ul></p><p><b>Source:</b> " + object.source
+
+        $(".ul-list-trinkets").append(info);
+    });
+    //for each consumable
+    $.each(json.consumables, function (index, object) {
+        info = "<li><div class = \"hover-img\"> <img src=" + object.img + "><div class=\"details\"><p id=\"name\"> " + object.name
+        if('desc' in object) {
+            info += "</p><p id=\"desc\"> " + object.desc
+        }
+        info +=  "</p><p><ul>"
+        object.details.forEach(function (item) {
+            info += "<li>" + item + "</li>"
+        })
+        info += "</ul></p><p><b>Source:</b> " + object.source
+
+        $(".ul-list-consumables").append(info)
+    });
 }

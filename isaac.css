@@ -68,6 +68,21 @@ li {
 	color: white;
 }
 
+.details ul {
+    padding: 0;
+    margin: 0;
+}
+
+.details li {
+	color: white;
+    display: block;
+}
+
+.details li:before {
+	content: "-";
+	padding-right: 8px;
+}
+
 #title {
     display: block;
     margin: auto;
