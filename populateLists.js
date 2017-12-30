@@ -40,12 +40,12 @@ function search() {
     input = document.getElementById('search');
     filter = input.value.toUpperCase();
     itemul = document.getElementById("itmlist");
-    li = itemul.getElementsByTagName('li');
+    li = itemul.getElementsByClassName('hover-img');
 
     for (i = 0; i < li.length; i++) {
     	item = li[i]
-        a = li[i].getElementsByTagName("p")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        a = li[i].getElementsByTagName("p")[0].innerHTML;
+        if (a.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
@@ -53,12 +53,12 @@ function search() {
     }
 
     trnkul = document.getElementById("tnklist");
-    li = trnkul.getElementsByTagName('li');
+    li = trnkul.getElementsByClassName('hover-img');
 
     for (i = 0; i < li.length; i++) {
     	item = li[i]
-        a = li[i].getElementsByTagName("p")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        a = li[i].getElementsByTagName("p")[0].innerHTML;
+        if (a.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
@@ -66,12 +66,12 @@ function search() {
     }
 
     consul = document.getElementById("cnslist");
-    li = consul.getElementsByTagName('li');
+    li = consul.getElementsByClassName('hover-img');
     
     for (i = 0; i < li.length; i++) {
     	item = li[i]
-        a = li[i].getElementsByTagName("p")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        a = li[i].getElementsByTagName("p")[0].innerHTML;
+        if (a.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
