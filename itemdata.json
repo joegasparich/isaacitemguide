@@ -115,7 +115,8 @@
             "details":[
                 "All fly enemies are no longer aggressive towards Isaac",
                 "Is only available from the shell game in the arcade",
-                "Counts towards Beelzebub transformation"
+                "Counts towards Beelzebub transformation",
+                "Counts towards Poop transformation"
             ],
             "type":"Passive",
             "pool":"None",
@@ -1493,7 +1494,8 @@
             "name":"Demon Baby",
             "desc":"Auto-turrent friend",
             "details":[
-                "A familiar which follows Isaac and automatically fires tears that deal 3 damage at any enemies in close range"
+                "A familiar which follows Isaac and automatically fires tears that deal 3 damage at any enemies in close range",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive",
             "pool":"Item Room, Devil Room",
@@ -2169,7 +2171,8 @@
             "desc":"Spectral buddy",
             "details":[
                 "A familiar which follows Isaac and shoots spectral tears that deal 3.5 damage",
-                "Ghost Baby fires tears once per second"
+                "Ghost Baby fires tears once per second",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive",
             "pool":"Item Room, Devil Room, Skulls",
@@ -2264,7 +2267,8 @@
             "name":"Daddy Longlegs",
             "desc":"Daddy's love",
             "details":[
-                "A shadow following Isaac and stomps on enemies randomly, dealing 40 damage per stomp"
+                "A shadow following Isaac and stomps on enemies randomly, dealing 40 damage per stomp",
+                "Counts towards Spiderbaby transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room",
@@ -2316,7 +2320,8 @@
             "desc":"Random buddy",
             "details":[
                 "A familiar that follows Isaac and fires random tears",
-                "Rainbow Baby's tears can choose from any of the other familiars"
+                "Rainbow Baby's tears can choose from any of the other familiars",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room",
@@ -2368,7 +2373,8 @@
             "name":"Holy Water",
             "desc":"Splash!",
             "details":[
-                "When Isaac takes damage, the bottle breaks and leaves a pool on the floor which deals 8 damage per tick"
+                "When Isaac takes damage, the bottle breaks and leaves a pool on the floor which deals 8 damage per tick",
+                "Higher chance for holy hearts"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room, Angel Room",
@@ -2440,7 +2446,8 @@
             "details":[
                 "+1 Health Up",
                 "Gives Isaac the ability to fly",
-                "Counts towards Seraphim transformation"
+                "Counts towards Seraphim transformation",
+                "Higher chance for holy hearts"
             ],
             "type":"Passive",
             "pool":"Angel Room",
@@ -2494,7 +2501,8 @@
             "name":"Abel",
             "desc":"Mirrored Buddy",
             "details":[
-                "A familiar that mirrors the player's movements and shoots tears that do 3.5 damage in the opposite direction"
+                "A familiar that mirrors the player's movements and shoots tears that do 3.5 damage in the opposite direction",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room, Gold Chest",
@@ -2778,7 +2786,8 @@
             "desc":"Toxic blast +5 bombs",
             "details":[
                 "+5 Bombs",
-                "Bombs now become poop bombs, which deal 10 damage to all enemies in the room and daze them for a short period of time"
+                "Bombs now become poop bombs, which deal 10 damage to all enemies in the room and daze them for a short period of time",
+                "Counts towards Poop transformation"
             ],
             "type":"Passive",
             "pool":"Item Room, Bomb Beggar",
@@ -3113,7 +3122,8 @@
             "name":"Infestation 2",
             "desc":"Infestation shot",
             "details":[
-                "Creates 1-2 friendly spiders when you kill an enemy"
+                "Creates 1-2 friendly spiders when you kill an enemy",
+                "Counts towards Spiderbaby transformation"
             ],
             "type":"Passive",
             "pool":"Item Room",
@@ -3490,7 +3500,8 @@
             "desc":"Immortal friend",
             "details":[
                 "A familiar that follows Isaac and blocks any shots that hit it",
-                "If a projectile is blocked by Dry Baby, there is a chance the Necronomicon effect will activate"
+                "If a projectile is blocked by Dry Baby, there is a chance the Necronomicon effect will activate",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room, Skulls",
@@ -3503,7 +3514,8 @@
             "desc":"Sticky babies",
             "details":[
                 "A familiar that follows Isaac around dropping white creep that slows enemies",
-                "Will someimes spawn a blue spider when you finish a room"
+                "Will someimes spawn a blue spider when you finish a room",
+                "Counts towards Spiderbaby transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room",
@@ -3683,7 +3695,8 @@
             "name":"Sissy Long Legs",
             "desc":"She loves you",
             "details":[
-                "A blue spider familiar that spawns up to 5 blue spiders at any one time if there are enemies in the room"
+                "A blue spider familiar that spawns up to 5 blue spiders at any one time if there are enemies in the room",
+                "Counts towards Spiderbaby transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room",
@@ -3851,7 +3864,8 @@
             "desc":"Reusable evil",
             "details":[
                 "When used, gives Isaac +1 Black Heart",
-                "Counts towards Bookworm transformation"
+                "Counts towards Bookworm transformation",
+                "Counts towards Leviathan transformation"
             ],
             "type":"Active",
             "recharge":"6",
@@ -4213,7 +4227,8 @@
             "name":"Gemeni",
             "desc":"Conjoined friend",
             "details":[
-                "A familiar that is attached to Isaac, which will seek out and damage any enemies close by for 3 contact damage"
+                "A familiar that is attached to Isaac, which will seek out and damage any enemies close by for 3 contact damage",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room",
@@ -4872,7 +4887,8 @@
             "desc":"Egg sack bombs!",
             "details":[
                 "Bombs stick to enemies",
-                "When an enemy is killed by a bomb, blue spiders are spawned"
+                "When an enemy is killed by a bomb, blue spiders are spawned",
+                "Counts towards Spiderbaby transformation"
             ],
             "type":"Passive",
             "pool":"Item Room, Bomb Beggar",
@@ -5004,7 +5020,8 @@
             "name":"Bursting Sack",
             "desc":"Spider love",
             "details":[
-                "Spider enemies no longer target or deal contact damage to Isaac"
+                "Spider enemies no longer target or deal contact damage to Isaac",
+                "Counts towards Spiderbaby transformation"
             ],
             "type":"Passive",
             "pool":"Item Room",
@@ -5016,7 +5033,8 @@
             "name":"No. 2",
             "desc":"Uh oh...",
             "details":[
-                "Coninuously firing or charging tears for 3 seconds causes Isaac to drop a Butt Bomb"
+                "Coninuously firing or charging tears for 3 seconds causes Isaac to drop a Butt Bomb",
+                "Counts towards Poop transformation"
             ],
             "type":"Passive",
             "pool":"Item Room",
@@ -5172,7 +5190,8 @@
             "name":"Seraphim",
             "desc":"Sworn friend",
             "details":[
-                "A familiar angel which fires Sacred Heart tears which deal 10 damage"
+                "A familiar angel which fires Sacred Heart tears which deal 10 damage",
+                "Counts towards Seraphim transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room, Angel Room",
@@ -5364,7 +5383,8 @@
             "desc":"He farts!",
             "details":[
                 "A familiar that follows Isaac and blocks tears",
-                "High chance to do a damaging and charming fart upon blocking a tear"
+                "High chance to do a damaging and charming fart upon blocking a tear",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room",
@@ -5574,7 +5594,8 @@
             "details":[
                 "Isaac drops powder creep",
                 "If the creep forms a circle, a pentagram spawns which deals 10 damage per tick",
-                "Counts towards Damned transformation"
+                "Counts towards Damned transformation",
+                "Counts towards Leviathan transformation"
             ],
             "type":"Passive",
             "pool":"Devil Room",
@@ -5767,7 +5788,8 @@
             "name":"Lil Loki",
             "desc":"4-way buddy!",
             "details":[
-                "A Loki familiar that follows Isaac and shoots 4 tears in a cross pattern"
+                "A Loki familiar that follows Isaac and shoots 4 tears in a cross pattern",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive",
             "pool":"Item Room",
@@ -6110,7 +6132,8 @@
             "desc":"Egg tears!",
             "details":[
                 "Chance to shoot an egg sack, which slows enemies and drops a pool of slowing creep",
-                "Upon hitting an enemy, spawns a blue fly or spider"
+                "Upon hitting an enemy, spawns a blue fly or spider",
+                "Counts towards Spiderbaby transformation"
             ],
             "type":"Passive",
             "pool":"Item Room",
@@ -6262,7 +6285,8 @@
             "desc":"Lord of the dead!",
             "details":[
                 "All other following familiars follow King Baby.",
-                "While Isaac is firing, King Baby stops moving"
+                "While Isaac is firing, King Baby stops moving",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Shop",
@@ -6519,7 +6543,8 @@
             "desc":"Pills pills pills!",
             "details":[
                 "Every 2 rooms, Acid Baby drops a random pill",
-                "Every time you use a pill, all enemies in the room are dealt double your tear damage"
+                "Every time you use a pill, all enemies in the room are dealt double your tear damage",
+                "Counts towards Conjoined transformation"
             ],
             "type":"Passive, Familiar",
             "pool":"Item Room, Demon Beggar",
@@ -6682,7 +6707,8 @@
             "name":"Brown Nugget",
             "desc":"Friendly Fly",
             "details":[
-                "When used, will spawn a fly turret that doesn't move and fires tears at nearby enemies"
+                "When used, will spawn a fly turret that doesn't move and fires tears at nearby enemies",
+                "Counts towards Poop transformation"
             ],
             "type":"Active",
             "recharge":"Timed",
@@ -7007,7 +7033,8 @@
             "name":"Angelic Prism",
             "desc":"Eclipsed by the moon",
             "details":[
-                "An orbital that converts your tears into 4 coloured tears"
+                "An orbital that converts your tears into 4 coloured tears",
+                "Counts towards Seraphim transformation"
             ],
             "type":"Passive, Orbital",
             "pool":"Angel Room",
@@ -7069,7 +7096,8 @@
             "name":"Trisagion",
             "desc":"Smite thy enemy",
             "details":[
-                "Tears are replaced with piercing small holy lasers"
+                "Tears are replaced with piercing small holy lasers",
+                "Counts towards Seraphim transformation"
             ],
             "type":"Passive",
             "pool":"Angel Room",
@@ -8677,47 +8705,6 @@
             "tag":"tech"
         },
         {
-            "img":"items\\collectibles_Bone_Meal.png",
-            "name":"Bone Meal",
-            "desc":"Bone Appetite!",
-            "details":[
-                "+2 Soul Hearts",
-                "Upon being hit, Isaac shoots out bones",
-                "Counts towards Bonehead transformation"
-            ],
-            "type":"Passive",
-            "pool":"Boss Room, Beggar",
-            "source":"The Bone Bundle",
-            "tag":"bone"
-        },
-        {
-            "img":"items\\collectibles_Calcium.png",
-            "name":"Calcium",
-            "desc":"Strong bones!",
-            "details":[
-                "+1 Damage Up",
-                "+1 Soul Heart",
-                "Counts towards Bonehead transformation"
-            ],
-            "type":"Passive",
-            "pool":"Item Room, Boss Room",
-            "source":"The Bone Bundle",
-            "tag":"bone"
-        },
-        {
-            "img":"items\\collectibles_Skimpy.png",
-            "name":"Skimpy",
-            "desc":"...or what's left of him",
-            "details":[
-                "Familiar that follows Isaac and has a chance to drop a half soul heart if Isaac doesn't take damage on a room",
-                "Counts towards Bonehead transformation"
-            ],
-            "type":"Passive",
-            "pool":"Devil Room, Red Chest, Demon Beggar",
-            "source":"The Bone Bundle",
-            "tag":"bone"
-        },
-        {
             "img":"items\\AManualIcon.png",
             "name":"Use & Care Guide",
             "desc":"Don't try this at home!",
@@ -8774,44 +8761,6 @@
             "tag":"animalMax"
         },
         {
-            "img":"items\\Collectibles_Mineral_Tears.png",
-            "name":"Mineral Tears",
-            "desc":"Get busy digging or get busy dying!",
-            "details":[
-                "Chance to fire rock tears which spawn shockwaves on impact",
-                "Chance scales based on luck as well as rocks destroyed"
-            ],
-            "type":"Passive",
-            "pool":"Rock",
-            "source":"Quarry",
-            "tag":"rock"
-        },
-        {
-            "img":"items\\Collectibles_Ground_Bean.png",
-            "name":"Ground Bean",
-            "desc":"No touching!",
-            "details":[
-                "Spawns a shockwaves around Isaac upon taking damage"
-            ],
-            "type":"Passive",
-            "pool":"Rock",
-            "source":"Quarry",
-            "tag":"bean"
-        },
-        {
-            "img":"items\\Collectibles_Rock_Shield.png",
-            "name":"Rock Shield",
-            "desc":"Valley Guardian",
-            "details":[
-                "Spawns shockwave pulses which damage and block shots for a few seconds"
-            ],
-            "type":"Active",
-            "recharge":4,
-            "pool":"Rock",
-            "source":"Quarry",
-            "tag":"rock"
-        },
-        {
             "img":"items\\paddle.png",
             "name":"The Paddle",
             "desc":"Ping!",
@@ -8821,7 +8770,7 @@
             "type":"Passive",
             "pool":"Item Room",
             "source":"Apocrypha",
-            "tag":"misc"
+            "tag":"zzmisc"
         },
         {
             "img":"items\\Hellfire.png",
@@ -8872,7 +8821,7 @@
             "recharge":3,
             "pool":"Devil Room, Golden Chest, Red Chest",
             "source":"Apocrypha",
-            "tag":"misc"
+            "tag":"zzmisc"
         },
         {
             "img":"items\\Eternity.png",
@@ -8999,7 +8948,7 @@
             "type":"Passive",
             "pool":"Devil Room, Curse Room, Demon Beggar",
             "source":"Apocrypha",
-            "tag":"misc"
+            "tag":"zzmisc"
         },
         {
             "img":"items\\BucketOTar.png",
@@ -9011,7 +8960,186 @@
             "type":"Passive",
             "pool":"Item Room",
             "source":"Apocrypha",
-            "tag":"misc"
+            "tag":"zzmisc"
+        },
+        {
+            "img":"items\\Cheese_Grater.png",
+            "name":"Cheese Grater",
+            "desc":"Say when",
+            "details":[
+                "Increases tears but makes shots inaccurate",
+                "Tears leak out of your face when you aren't shooting"
+            ],
+            "type":"Passive",
+            "pool":"Item Room",
+            "source":"Apocrypha",
+            "tag":"zzmisc"
+        },
+        {
+            "img":"items\\OddMushroomBulbous.png",
+            "name":"Odd Mushroom (Bulbous)",
+            "desc":"DMG up, Shotspeed down",
+            "details":[
+                "+1 Health Up",
+                "+1.6 Damage Up",
+                "-0.3 Speed Down",
+                "-0.3 Shotspeed Down"
+            ],
+            "type":"Passive",
+            "pool":"Item Room, Boss Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\OddMushroomStubby.png",
+            "name":"Odd Mushroom (Stubby)",
+            "desc":"Speed up",
+            "details":[
+                "+0.35 Speed Up",
+                "-10.25 Range Down"
+            ],
+            "type":"Passive",
+            "pool":"Item Room, Boss Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\OddMushroomLong.png",
+            "name":"Odd Mushroom (Long)",
+            "desc":"Shotspeed + Range up",
+            "details":[
+                "+5.25 Range Up",
+                "+0.45 Shot Speed",
+                "+0.35 Damage Up"
+            ],
+            "type":"Passive",
+            "pool":"Item Room, Boss Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\ProtectiveShroom.png",
+            "name":"Protective Shroom",
+            "desc":"Fungal protection",
+            "details":[
+                "+1 Health Up",
+                "1 Soul Heart",
+                "Chance to half or nullify incoming damage"
+            ],
+            "type":"Passive",
+            "pool":"Item Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\Basidospore.png",
+            "name":"Basidospore",
+            "desc":"Explosive spore shot!",
+            "details":[
+                "Chance for tears to be a spore shot",
+                "Spore shots explode into poisonous clouds upon hitting a wall or enemy"
+            ],
+            "type":"Passive",
+            "pool":"Item Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\GlowyMushroom.png",
+            "name":"Glowy Mushroom",
+            "desc":"Bioluminescence!",
+            "details":[
+                "Chance to apply a burn and concussion effect to hit enemies"
+            ],
+            "type":"Passive",
+            "pool":"Item Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\PoisonShroom.png",
+            "name":"Poison Shroom",
+            "desc":"Damage at a cost",
+            "details":[
+                "2x Damage Multiplier",
+                "+0.2 Speed Up",
+                "-1 Heart Container",
+                "Damages Isaac for 1 heart"
+            ],
+            "type":"Passive",
+            "pool":"Secret Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\RedStalk.png",
+            "name":"Red Stalk",
+            "desc":"HP + Damage",
+            "details":[
+                "+2 Health Up",
+                "+0.85 Damage Up",
+                "-0.2 Speed Down"
+            ],
+            "type":"Passive",
+            "pool":"Boss Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\GreenCap.png",
+            "name":"Green Cap",
+            "desc":"Luck + Speed",
+            "details":[
+                "Fully heals Isaac",
+                "+1 Luck Up",
+                "+0.1 Speed Up",
+                "-2.5 Range Down"
+            ],
+            "type":"Passive",
+            "pool":"Boss Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\OrangeStem.png",
+            "name":"Orange Stem",
+            "desc":"Tears + Range",
+            "details":[
+                "-0.4 Damage Down",
+                "Tears Up (Cached)",
+                "+10.5 Range Up"
+            ],
+            "type":"Passive",
+            "pool":"Boss Room",
+            "source":"More Mushrooms",
+            "tag":"mushroom"
+        },
+        {
+            "img":"items\\Gods_Blessing.png",
+            "name":"God's Chrismation",
+            "desc":"God has blessed you",
+            "details":[
+                "+1 Holy Heart",
+                "Holy hearts now also add 1 soul heart upon pickup",
+                "Higher chance for holy hearts"
+            ],
+            "type":"Passive",
+            "pool":"Angel Room",
+            "source":"Holy Heart Items",
+            "tag":"holy"
+        },
+        {
+            "img":"items\\Holy_Wine.png",
+            "name":"Communion Wine",
+            "desc":"Reusable blessing",
+            "details":[
+                "Gives one holy heart"
+            ],
+            "type":"Active",
+            "recharge":6,
+            "pool":"Angel Room",
+            "source":"Holy Heart Items",
+            "tag":"holy"
         }
     ],
     "trinkets":[
@@ -9030,7 +9158,8 @@
             "name":"Petrified Poop",
             "desc":"It feels lucky?",
             "details":[
-                "While held, Isaac has a significantly higher chance to find drops while breaking poops"
+                "While held, Isaac has a significantly higher chance to find drops while breaking poops",
+                "Counts towards Poop transformation"
             ],
             "source":"Rebirth",
             "tag":"toilet"
@@ -9173,7 +9302,8 @@
             "name":"Mom's Toenail",
             "desc":"???",
             "details":[
-                "Mom's leg will appear every 60 seconds and stomp down randomly in the room"
+                "Mom's leg will appear every 60 seconds and stomp down randomly in the room",
+                "Counts towards Mom transformation"
             ],
             "source":"Rebirth",
             "tag":"organ"
@@ -9255,7 +9385,8 @@
             "name":"Butt Penny",
             "desc":"Wealth of gas",
             "details":[
-                "Every time you pick up a coin, you fart"
+                "Every time you pick up a coin, you fart",
+                "Counts towards Poop transformation"
             ],
             "source":"Rebirth",
             "tag":"coin"
@@ -9395,7 +9526,8 @@
             "name":"Mom's Pearl",
             "desc":"It emanates purity",
             "details":[
-                "Higher chance of soul hearts"
+                "Higher chance of soul hearts",
+                "Counts towards Mom transformation"
             ],
             "source":"Rebirth",
             "tag":"zzmisc"
@@ -9721,7 +9853,8 @@
             "name":"Bob's Bladder",
             "desc":"Creepy bombs",
             "details":[
-                "Leaves a pool of damaging creep under all bombs you place"
+                "Leaves a pool of damaging creep under all bombs you place",
+                "Counts towards Bob transformation"
             ],
             "source":"Afterbirth",
             "tag":"organ"
@@ -9884,7 +10017,8 @@
             "desc":"You feel her love",
             "details":[
                 "While held, you heal for half a red heart every time you use a key",
-                "Changes all half red hearts into full hearts"
+                "Changes all half red hearts into full hearts",
+                "Counts towards Mom transformation"
             ],
             "source":"Afterbirth",
             "tag":"zzmisc"
@@ -9924,7 +10058,8 @@
             "name":"Meconium",
             "desc":"Eww",
             "details":[
-                "While held you have an increased chance for Black Poops to spawn"
+                "While held you have an increased chance for Black Poops to spawn",
+                "Counts towards Poop transformation"
             ],
             "source":"Afterbirth+",
             "tag":"toilet"
@@ -9944,7 +10079,8 @@
             "name":"Used Diaper",
             "desc":"You Stink",
             "details":[
-                "While held, has a chance to activate the skatole effect for the room"
+                "While held, has a chance to activate the skatole effect for the room",
+                "Counts towards Poop transformation"
             ],
             "source":"Afterbirth+",
             "tag":"toilet"
@@ -10243,7 +10379,8 @@
             "name":"Wooden Cross",
             "desc":"My faith protects me",
             "details":[
-                "Fives you the Holy Mantly shield effect at the start of every new floor"
+                "Fives you the Holy Mantly shield effect at the start of every new floor",
+                "Higher chance for holy hearts"
             ],
             "source":"Booster 1",
             "tag":"holy"
@@ -10493,16 +10630,6 @@
             "tag":"spider"
         },
         {
-            "img":"trinkets\\bursting_rock.png",
-            "name":"Bursting Rock",
-            "desc":"Wetstones",
-            "details":[
-                "Destroyed rocks spawn tears in a circle"
-            ],
-            "source":"Quarry",
-            "tag":"rock"
-        },
-        {
             "img":"trinkets\\brokeflopper.png",
             "name":"Broken Disk",
             "desc":"Save Often",
@@ -10601,6 +10728,26 @@
             ],
             "source":"Apocrypha",
             "tag":"worm"
+        },
+        {
+            "img":"trinkets\\chipping_blade.png",
+            "name":"Chipping Blade",
+            "desc":"Well these look useful!",
+            "details":[
+                "Destroying bomb rocks will give bombs"
+            ],
+            "source":"Chipping Blade",
+            "tag":"zzmisc"
+        },
+        {
+            "img":"trinkets\\trinket_oil_can.png",
+            "name":"Oil Can",
+            "desc":"Well-Oiled Machines",
+            "details":[
+                "Machines no longer explode on use and touching jammed machines fixes them"
+            ],
+            "source":"Oil Can",
+            "tag":"zzmisc"
         }
     ],
     "consumables":[
@@ -11089,6 +11236,78 @@
                 "Reveals the map"
             ],
             "source":"Rebirth"
+        },
+        {
+            "img":"consumables\\lost1.png",
+            "name":"I - The Cold",
+            "desc":"Lost card",
+            "details":[
+                "Slows all enemies in the room for 10 seconds"
+            ],
+            "source":"Lost Cards"
+        },
+        {
+            "img":"consumables\\lost3.png",
+            "name":"II - The Servant",
+            "desc":"Lost card",
+            "details":[
+                "Gives you a random familiar for the room"
+            ],
+            "source":"Lost Cards"
+        },
+        {
+            "img":"consumables\\lost5.png",
+            "name":"III - Wisdom",
+            "desc":"Lost card",
+            "details":[
+                "Teleports Isaac to the Super Secret Room"
+            ],
+            "source":"Lost Cards"
+        },
+        {
+            "img":"consumables\\lost7.png",
+            "name":"IV - Repentance",
+            "desc":"Lost card",
+            "details":[
+                "Spawns a random dice floor into the room"
+            ],
+            "source":"Lost Cards"
+        },
+        {
+            "img":"consumables\\lost2.png",
+            "name":"V - Eternity",
+            "desc":"Lost card",
+            "details":[
+                "Gives an eternal heart"
+            ],
+            "source":"Lost Cards"
+        },
+        {
+            "img":"consumables\\lost4.png",
+            "name":"VI - Corruption",
+            "desc":"Lost card",
+            "details":[
+                "Teleports the player to a random rare room"
+            ],
+            "source":"Lost Cards"
+        },
+        {
+            "img":"consumables\\lost6.png",
+            "name":"VII - Immolation",
+            "desc":"Lost card",
+            "details":[
+                "Teleports the player to either the Curse Room or the Sacrifice Room"
+            ],
+            "source":"Lost Cards"
+        },
+        {
+            "img":"consumables\\lost8.png",
+            "name":"VIII - Worship",
+            "desc":"Lost card",
+            "details":[
+                "Has a 50% chance to either deal two hearts of damage to the player or spawn an item from the current room's pool"
+            ],
+            "source":"Lost Cards"
         },
         {
             "img":"consumables\\heaA.png",
@@ -11589,6 +11808,7 @@
 				"Deadlock - Freezses half the enemies in the room at any given time",
 				"Encryption Error - Random stat changes constantly, skewed towards positive",
 				"Fatal Bug - Spawns a few random charmed, champion bug enemies",
+                "Fire Wall - Spawns a wall of fire that blocks shots and damages enemies",
 				"Heartbleed - Takes up to 3 hearts away and spawns 3 random hearts",
 				"ILOVEYOU - Randomizes rocks, enemies and consumables",
 				"Infinite Loop - Locks 50% of the enemies in time, causing them to repeat their last 1 second of actions for the next few seconds",
@@ -11612,6 +11832,7 @@
 				"Deadlock - Removes half of your familiars for the current room",
 				"Encryption Error - Random stat changes constantly, skewed towards negative",
 				"Fatal Bug - Spawns a few random champion bug enemies",
+                "Fire Wall - Spawns a burning ring of fire which closes in on the player",
 				"Heartbleed - Creates a ring of red creep on the ground around the player",
 				"ILOVEYOU - Randomizes rocks, enemies and consumables with a chance to lose consumable and double enemies",
 				"Infinite Loop - Locks the player in time, causing them to repeat their last 1 second of actions for the next few seconds",
